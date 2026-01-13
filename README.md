@@ -26,12 +26,11 @@ This project is designed for an e-commerce brand to showcase **Diwali special of
 
 ---
 
-## 📸 Project Preview
+## 🚀 Live Demo
 
-<img src="LoserClothing
-/diwali-offer.png.png
-" width="350" />
+🔗 **[View Live Website](https://rahulgupta143.github.io/LoserClothing/)**
 
+---
 
 ## 🚀 Run Locally
 
