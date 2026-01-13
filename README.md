@@ -28,7 +28,8 @@ This project is designed for an e-commerce brand to showcase **Diwali special of
 
 ## 📸 Project Preview
 
-<img src="diwali-offer.png.png
+<img src="LoserClothing
+/diwali-offer.png.png
 " width="350" />
 
 
