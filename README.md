@@ -28,7 +28,8 @@ This project is designed for an e-commerce brand to showcase **Diwali special of
 
 ## 📸 Project Preview
 
-![Diwali Dhamaka Offer](diwali-offer.png)
+<img src="diwali-offer.png" width="350" />
+
 
 ## 🚀 Run Locally
 
