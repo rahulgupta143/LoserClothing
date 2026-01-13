@@ -28,7 +28,7 @@ This project is designed for an e-commerce brand to showcase **Diwali special of
 
 ## 📸 Project Preview
 
-<img src="screenshots/diwali-offer.png
+<img src="diwali-offer.png.png
 " width="350" />
 
 
