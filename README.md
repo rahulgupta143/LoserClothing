@@ -31,36 +31,37 @@ This project is designed for an e-commerce brand to showcase **Diwali special of
 )
 \
 
-Run locally
+## 🚀 Run Locally
 
-Open index.html in any modern browser.
+Simply open the `index.html` file in any modern web browser to run the project locally.
 
-🎯 Use Cases
+---
 
-E-commerce Diwali offer campaigns
+## 🎯 Use Cases
 
-Festival landing pages
+- E-commerce Diwali festive offer campaigns  
+- Festival-themed landing pages  
+- Frontend animation and UI/UX practice  
+- Portfolio showcase project  
 
-Frontend animation & UI practice
+---
 
-Portfolio showcase project
+## 🏷️ Brand Information
 
-🏷️ Brand Information
+**Loser Clothing**  
+📞 Contact: +91 9022610924  
 
-Loser Clothing
-📞 Contact: +91 9022610924
+---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Rahul Gupta
+**Rahul Gupta**  
+- GitHub: https://github.com/rahulgupta143  
+- LinkedIn: https://linkedin.com/in/rahulgupta143  
 
-GitHub: https://github.com/rahulgupta143
+---
 
-LinkedIn: https://linkedin.com/in/rahulgupta143
+## ⭐ Support & Feedback
 
-⭐ Support & Feedback
-
-If you like this project, don’t forget to star ⭐ the repository.
-Suggestions and contributions are always welcome!
-
- 
+If you like this project, please consider giving it a **star ⭐** on GitHub.  
+Suggestions, feedback, and contributions are always welcome!
