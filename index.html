@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🪔 Diwali Dhamaka Offer 🪔</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-image: url("diwali6.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgb(233, 22, 22);
+        position: relative;
+        overflow: hidden;
+      }
+
+      body::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.45);
+        z-index: 0;
+      }
+
+      /* Diwali String Lights on top */
+      .light-strip {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+        pointer-events: none;
+      }
+
+      .bulb {
+        width: 15px;
+        height: 22px;
+        border-radius: 50%;
+        background-color: #ff4d4d;
+        box-shadow: 0 0 10px #ff4d4d;
+        animation: blink 1.2s infinite alternate;
+      }
+
+      .bulb:nth-child(3n) {
+        background-color: #00ffff;
+        box-shadow: 0 0 10px #00ffff;
+        animation-delay: 0.2s;
+      }
+      .bulb:nth-child(2n) {
+        background-color: #ffea00;
+        box-shadow: 0 0 10px #ffea00;
+        animation-delay: 0.4s;
+      }
+      .bulb:nth-child(4n) {
+        background-color: #ff00ff;
+        box-shadow: 0 0 10px #ff00ff;
+        animation-delay: 0.6s;
+      }
+
+      @keyframes blink {
+        0% {
+          opacity: 0.3;
+          transform: translateY(0);
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(3px);
+        }
+        100% {
+          opacity: 0.3;
+          transform: translateY(0);
+        }
+      }
+
+      /* Top string lights - zigzag */
+      .light-strip {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        z-index: 10;
+        pointer-events: none;
+      }
+
+      .bulb {
+        width: 15px;
+        height: 22px;
+        border-radius: 50%;
+        background-color: #ff4d4d;
+        box-shadow: 0 0 10px #ff4d4d;
+        animation: blink 1.2s infinite alternate;
+        position: relative;
+      }
+
+      .bulb:nth-child(odd) {
+        top: 0px;
+      }
+      .bulb:nth-child(even) {
+        top: 15px;
+      }
+
+      .bulb:nth-child(3n) {
+        background-color: #00ffff;
+        box-shadow: 0 0 10px #00ffff;
+        animation-delay: 0.2s;
+      }
+      .bulb:nth-child(2n) {
+        background-color: #ffea00;
+        box-shadow: 0 0 10px #ffea00;
+        animation-delay: 0.4s;
+      }
+      .bulb:nth-child(4n) {
+        background-color: #ff00ff;
+        box-shadow: 0 0 10px #ff00ff;
+        animation-delay: 0.6s;
+      }
+
+      @keyframes blink {
+        0% {
+          opacity: 0.3;
+          transform: translateY(0);
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(3px);
+        }
+        100% {
+          opacity: 0.3;
+          transform: translateY(0);
+        }
+      }
+
+      .diya {
+        position: absolute;
+        width: 60px;
+        bottom: 10px;
+        opacity: 0.85;
+        filter: drop-shadow(0 0 10px #ffb400);
+        animation: float 4s ease-in-out infinite alternate;
+        z-index: 2;
+      }
+
+      /* LOSER CLOTHING title */
+      .brand {
+        font-family: "Great Vibes", cursive;
+        font-size: 3.2rem;
+        color: #ffda2f;
+        text-shadow: 0 0 10px #ff9100, 0 0 25px #ffc400;
+        margin-top: 0px;
+        z-index: 3;
+        animation: glow 2s infinite alternate;
+      }
+
+      .diya:nth-child(1) {
+        left: 10%;
+        animation-delay: 0.3s;
+      }
+      .diya:nth-child(2) {
+        left: 10%;
+        transform: translateX(-50%);
+        animation-delay: 0.6s;
+      }
+      .diya:nth-child(3) {
+        right: 10%;
+        animation-delay: 0.9s;
+      }
+
+      @keyframes float {
+        from {
+          transform: translateY(0);
+        }
+        to {
+          transform: translateY(-20px);
+        }
+      }
+
+      .offer-box {
+        background: rgba(255, 255, 255, 0);
+        border-radius: 20px;
+        padding: 25px;
+        width: 90%;
+        max-width: 380px;
+        box-shadow: 0 4px 25px rgba(255, 150, 0, 0.6);
+        z-index: 3;
+        box-sizing: border-box;
+        animation: fadeIn 1s ease;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(25px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      h1 {
+        color: #e11d48;
+        font-size: 1.8rem;
+        text-shadow: 0 0 4px #ffffff70, 0 0 30px #ff0000;
+        margin-bottom: 10px;
+      }
+
+      img {
+        width: 160px;
+        height: 160px;
+        border-radius: 15px;
+        object-fit: cover;
+        margin: 12px 0;
+        box-shadow: 0 4px 15px rgba(255, 200, 0, 0.5);
+      }
+
+      h2 {
+        color: #fffb00e7;
+        font-size: 1.3rem;
+        margin: 8px 0;
+      }
+      p {
+        color: #fffb00e7;
+        font-size: 0.95rem;
+        margin: 4px 0;
+      }
+      .claim {
+        font-weight: bold;
+        color: #74bee1;
+        margin-top: 12px;
+      }
+
+      button {
+        margin-top: 15px;
+        background: linear-gradient(90deg, #ff7b00, #ff005c);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 12px 25px;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 100%;
+        max-width: 250px;
+        transition: 0.3s;
+        box-shadow: 0 0 20px rgba(255, 120, 0, 0.6);
+      }
+
+      button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 30px rgba(255, 90, 0, 0.9);
+      }
+
+      footer {
+        margin-top: 20px;
+        font-size: 1.2rem;
+        color: #fff;
+        text-shadow: 0 0 6px #ff6600;
+        z-index: 4;
+      }
+      footer strong {
+        color: #ffde59;
+      }
+
+      .firework {
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        animation: explode 1.2s ease-out forwards;
+        z-index: 1;
+      }
+
+      @keyframes explode {
+        0% {
+          transform: scale(0.5);
+          opacity: 1;
+        }
+        100% {
+          transform: scale(1.5) translate(var(--x), var(--y));
+          opacity: 0;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .brand {
+          font-size: 2.2rem;
+          margin-top: 1px;
+        }
+        h1 {
+          font-size: 1.5rem;
+        }
+        img {
+          width: 130px;
+          height: 130px;
+        }
+        .diya {
+          width: 50px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top string lights -->
+    <div class="light-strip" id="lightStrip"></div>
+
+    <!-- Diyas -->
+    <img src="diya.png" class="diya" alt="diya" />
+    <img src="diya.png" class="diya" alt="diya" />
+    <img src="diya.png" class="diya" alt="diya" />
+
+    <div class="brand">🛍️ Loser Clothing 🛍️</div>
+    <div class="offer-box">
+      <h1
+        style="
+          font-size: 1.6rem;
+          text-align: center;
+          color: #4ec908;
+          text-shadow: 0 0 10px #5fff2e64, 0 0 20px #328a148f;
+        "
+      >
+        🎇 Diwali Dhamaka 🎇
+        <span
+          style="
+            color: #1bc7f6fa;
+            text-align: center;
+            text-shadow: 0 0 10px #cd630d9e, 0 0 15px #f98705e6;
+            font-weight: bold;
+          "
+          >💥Offer</span
+        >💥
+      </h1>
+
+      <img id="offerImage" src="" alt="Gift Image" />
+      <h2 id="offerName">Loading...</h2>
+      <p id="offerWorth"></p>
+      <p class="claim" id="offerMin"></p>
+      <button onclick="nextOffer()">🎁 Show Another Offer</button>
+    </div>
+
+    <footer>📞 Contact: +91 9022610924</footer>
+
+    <script>
+      // Add bulbs for top lights
+      const lightStrip = document.getElementById("lightStrip");
+      for (let i = 0; i < 25; i++) {
+        const bulb = document.createElement("div");
+        bulb.classList.add("bulb");
+        lightStrip.appendChild(bulb);
+      }
+
+      const offers = [
+        {
+          name: "💎 Branded Perfume",
+          worth: "Worth ₹399",
+          min: "Minimum Shopping ₹999",
+          img: "perfume.jpg",
+        },
+        {
+          name: "🎧 Bluetooth Earbuds",
+          worth: "Worth ₹499",
+          min: "Minimum Shopping ₹1999",
+          img: "earburds.avif",
+        },
+        {
+          name: "⌚ Smartwatch",
+          worth: "Worth ₹799",
+          min: "Minimum Shopping ₹2999",
+          img: "watch.webp",
+        },
+        {
+          name: "🎧 Bluetooth Headphone",
+          worth: "Worth ₹999",
+          min: "Minimum Shopping ₹3999",
+          img: "headphone.jpg",
+        },
+        {
+          name: "🎁 Mystery Box",
+          worth: "Worth ₹1499 (Only for Lucky Ones 🍀)",
+          min: "Minimum Shopping ₹4999",
+          img: "mistry.jpg",
+        },
+      ];
+
+      let current = 0;
+
+      function showOffer(index) {
+        const offer = offers[index];
+        document.getElementById("offerName").innerText = offer.name;
+        document.getElementById("offerWorth").innerText = offer.worth;
+        document.getElementById(
+          "offerMin"
+        ).innerText = `FOR CLAIM!! ${offer.min}`;
+        document.getElementById("offerImage").src = offer.img;
+        fireCrackers();
+      }
+
+      function nextOffer() {
+        current = (current + 1) % offers.length;
+        showOffer(current);
+      }
+
+      function fireCrackers() {
+        for (let i = 0; i < 25; i++) {
+          const f = document.createElement("div");
+          f.classList.add("firework");
+          const x = (Math.random() - 0.5) * 400 + "px";
+          const y = (Math.random() - 0.5) * 400 + "px";
+          f.style.setProperty("--x", x);
+          f.style.setProperty("--y", y);
+          f.style.left = window.innerWidth / 2 + "px";
+          f.style.top = window.innerHeight / 2 + "px";
+          f.style.background = `hsl(${Math.random() * 360}, 100%, 60%)`;
+          document.body.appendChild(f);
+          setTimeout(() => f.remove(), 1200);
+        }
+      }
+
+      // ❌ Auto rotate hata diya
+      // setInterval(nextOffer, 5000);
+
+      // ✅ Sirf pehle offer show hoga
+      window.onload = () => showOffer(current);
+    </script>
+  </body>
+</html>
