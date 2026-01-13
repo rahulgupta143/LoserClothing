@@ -1,0 +1,66 @@
+# 🪔 Diwali Dhamaka Offer – Loser Clothing 🎇
+
+A festive and interactive **Diwali Offer Landing Page** created using **HTML, CSS, and JavaScript**.  
+This project is designed for an e-commerce brand to showcase **Diwali special offers** with beautiful animations and engaging UI effects.
+
+---
+
+## ✨ Features
+
+- 🎆 Diwali-themed attractive UI  
+- 💡 Animated zig-zag string lights  
+- 🪔 Floating diya animation  
+- 🎁 Dynamic offer cards with images  
+- 🔁 "Show Another Offer" button  
+- 🎇 Firecracker animation on offer change  
+- 📱 Fully responsive for mobile & desktop  
+- 🎨 Glow effects, gradients & smooth animations  
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML** – Structure  
+- **CSS** – Styling, animations & effects  
+- **JavaScript** – Dynamic offers & DOM manipulation  
+
+---
+
+## 📸 Preview
+![Home Page](<img width="1053" height="890" alt="Screenshot 2026-01-13 140416" src="https://github.com/user-attachments/assets/ee8f9c32-7a93-437a-8714-25ff24a9c6a8" />
+)
+\
+
+Run locally
+
+Open index.html in any modern browser.
+
+🎯 Use Cases
+
+E-commerce Diwali offer campaigns
+
+Festival landing pages
+
+Frontend animation & UI practice
+
+Portfolio showcase project
+
+🏷️ Brand Information
+
+Loser Clothing
+📞 Contact: +91 9022610924
+
+👨‍💻 Author
+
+Rahul Gupta
+
+GitHub: https://github.com/rahulgupta143
+
+LinkedIn: https://linkedin.com/in/rahulgupta143
+
+⭐ Support & Feedback
+
+If you like this project, don’t forget to star ⭐ the repository.
+Suggestions and contributions are always welcome!
+
+ 
